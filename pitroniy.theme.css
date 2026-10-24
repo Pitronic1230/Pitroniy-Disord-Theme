@@ -1,0 +1,34 @@
+/**
+ * @name Pitroniy
+ * @author Pitronic
+ * @description Mega ultra theme by Pitronic
+ * @version 0.1.2
+ */
+
+:root {
+    --color: #434;
+}
+
+
+
+
+
+
+
+.theme-dark {
+    --background-base-lowest: color-mix(in oklab, var(--color), #000 60%);
+    --background-base-lower: color-mix(in oklab, var(--color), #000 50%);
+    --background-base-low: color-mix(in oklab, var(--color), #000 40%);
+
+    --chat-background-default: color-mix(in oklab, var(--color), #000 30%);
+
+    --background-surface-high: color-mix(in oklab, var(--color), #000 30%);
+
+    --text-strong: color-mix(in oklab, var(--color), #fff 50%);
+    --interactive-text-active: color-mix(in oklab, var(--color), #fffa 75%);
+
+    --channels-default: color-mix(in oklab, var(--color), #fff3 25%);
+    --channel-icon: color-mix(in oklab, var(--color), #fff3 25%);
+
+    --user-profile-overlay-background: color-mix(in oklab, var(--color), #000 15%);
+}
